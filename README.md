@@ -4,6 +4,8 @@
 
 ###
 
+基于react-h5-calendar 加了minDate 和 maxDate 
+
 造一个小轮子,核心文件不到三百行,一款基于 react 的移动端 , mobile, h5 日历展示组件
 
 我这个只是精简版的日历 ,大而全的可参考 https://github.com/TangSY/react-hash-calendar
@@ -60,6 +62,8 @@ export default class Demo extends Component {
 | `markType`           | 标记类型 支持`dot`和`circle`    | `dot`      |
 | `markDates`          | 需要标记的日期数组              | `[]`       |
 | `disableWeekView`    | 禁用周视图                      | `false`    |
+| `minDate`            | 最小限制日期                    | `2000-1-1`    |
+| `maxDate`            | 最大限制日期                    | `2050-1-1`    |
 
 ### `markDates` 参数说明
 
